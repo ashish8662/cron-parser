@@ -1,11 +1,3 @@
-#!/usr/bin/env node
-
-/**
- * Simple Cron Expression Parser
- * Supports standard 5-field cron (min, hour, day, month, weekday) + command
- * No external cron libraries used.
- */
-
 const FIELD_SPECS = {
   minute: { min: 0, max: 59 },
   hour: { min: 0, max: 23 },
